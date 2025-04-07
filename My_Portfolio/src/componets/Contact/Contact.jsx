@@ -4,7 +4,10 @@ import styles from "./Contact.module.css";
 export const Contact = () => {
   return (
     <section className={styles.container} id="contact" >
-      <h2 className={styles.title}>Contact Me</h2>
+<h2 className={styles.title}>
+    <a href="https://wa.me/8817156755">Contact Me</a>
+</h2>
+
       <div className={styles.contactItems}>
         
         <div className={styles.contactItem}>

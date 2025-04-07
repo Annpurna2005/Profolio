@@ -4,16 +4,22 @@ import styles from "./Projects.module.css";
 const projects = [
   {
     id: 1,
-    title: "Online Blood Donation",
+    title: "Online Blood Donation ",
     description: "A user-friendly platform for ordering and delivering chocolates online. Customers can browse a variety of chocolates, place orders, and track deliveries seamlessly. Sweet, fast, and convenient! 🍫",
-    image: "../Public/chocolate.png"
+    image: "Public/blooddonation.png"
   },
   {
     id: 2,
     title: "Online Food Platform",
     description: "A platform that connects blood donors with recipients in need. Users can register, search for donors, and request blood donations easily. Secure, efficient, and user-friendly. 🚑❤️",
-    image: "../Public/blooddonation.png"
-  }
+    image: "Public/chocolate.png"
+  },{
+    id: 3,
+    title: "Bussiness portfolio",
+    description: "I have developed a professional business portfolio website to effectively showcase our company’s services, projects, and brand identity.🤑",
+    image: "Public/Screenshot 2025-04-07 102912.png"
+  },
+  
 ];
 
 export const Projects = () => {
